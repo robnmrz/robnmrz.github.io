@@ -68,3 +68,21 @@
 	@import 'layout/main';
 	@import 'layout/footer';
 	@import 'layout/navPanel';
+
+.technologies {
+	font-size: 18px; 
+	margin-bottom: 5px;
+}
+
+.technologies-list {
+	font-size: 15px;
+	text-align: left; 
+	margin-bottom: 0px;
+}
+
+.image.fit {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    width: 100%;
+}

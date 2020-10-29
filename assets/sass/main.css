@@ -3300,7 +3300,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-color: #ffffff;
   border-width: 5px !important;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 2.25rem;
+  font-size: 3rem;
   font-weight: 900;
   letter-spacing: 0.075em;
   line-height: 1;
@@ -4360,5 +4360,27 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
             box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
     visibility: visible;
   }
+}
+
+.technologies {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.technologies-list {
+  font-size: 15px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+
+.image.fit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 2rem 0;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
